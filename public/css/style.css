@@ -1,0 +1,26 @@
+.container {
+	width: 700px;
+	margin: auto;
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+}
+
+.entry {
+	display: flex;
+}
+
+.formu {
+	width: 50px;
+	padding: 7px;
+	background-color:yellow; 
+	margin-right: 4px;
+	box-shadow: 3px 3px 3px;
+	color: grey;
+}
+.case_objet.case_objet.case_objet.case_objet   {
+	width: 300px;
+	height: 100px;
+}

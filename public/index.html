@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/semantic.css">
+</head>
+<body>
+	<div class="container">
+		
+		<h1>Ma liste</h1>
+		<div class="ui center aligned grid">
+			<ul id="target">
+
+
+			</ul>
+		</div>
+
+		
+	</div>
+	
+	<script id="template" type="x-tmpl-mustache">
+		<div class="ui secondary inverted purple attached segment case_objet">
+			<h3>{{name}}</h3> 
+			<div>	
+				<button class="ui red button bouton_moins">-</button> 
+
+				<input type="text" value="{{count}}" class="formu">
+
+				<button class="ui green button bouton_plus">+</button>
+			</div>
+
+		</div>
+	</script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/mustache.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
